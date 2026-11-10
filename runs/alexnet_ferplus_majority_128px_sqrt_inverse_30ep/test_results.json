@@ -1,0 +1,101 @@
+{
+  "checkpoint": "runs\\alexnet_ferplus_majority_128px_sqrt_inverse_30ep\\best.pt",
+  "epoch": 29,
+  "model": "alexnet",
+  "labels": "ferplus",
+  "test_images": 3376,
+  "accuracy": 0.8228672985781991,
+  "macro_f1": 0.6873124156619462,
+  "confusion_matrix": [
+    [
+      982,
+      25,
+      24,
+      90,
+      20,
+      4,
+      10,
+      11
+    ],
+    [
+      33,
+      813,
+      17,
+      17,
+      20,
+      0,
+      5,
+      4
+    ],
+    [
+      19,
+      7,
+      364,
+      6,
+      10,
+      0,
+      14,
+      1
+    ],
+    [
+      92,
+      14,
+      3,
+      281,
+      18,
+      0,
+      12,
+      4
+    ],
+    [
+      27,
+      7,
+      4,
+      10,
+      261,
+      5,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      8,
+      11,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      21,
+      7,
+      1,
+      0,
+      57,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      5,
+      3,
+      1,
+      1,
+      9
+    ]
+  ],
+  "class_names": [
+    "neutral",
+    "happy",
+    "surprise",
+    "sad",
+    "angry",
+    "disgust",
+    "fear",
+    "contempt"
+  ]
+}

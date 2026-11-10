@@ -1,0 +1,22 @@
+{
+  "data_dir": "data",
+  "labels": "ferplus",
+  "ferplus_mode": "majority",
+  "model": "facenet_vggface2",
+  "pretrained": true,
+  "img_size": 160,
+  "epochs": 25,
+  "batch_size": 128,
+  "lr": 0.0005,
+  "weight_decay": 0.0001,
+  "class_weighting": "sqrt_inverse",
+  "label_smoothing": 0.1,
+  "augment": true,
+  "tta": true,
+  "use_ema": false,
+  "mixup": 0.0,
+  "select_metric": "macro_f1",
+  "seed": 42,
+  "out_dir": "runs",
+  "run_dir": "runs\\facenet_vggface2_ferplus_majority_160px_sqrt_inverse"
+}
